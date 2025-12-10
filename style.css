@@ -77,13 +77,15 @@ body {
   .for-sale-table th,
   .for-sale-table td {
      font-size: 14px;
-     padding: 8px;
+     padding: 1px;
      white-space: nowrap;
   }
 
   /* Recent sales cards fit mobile */
-  .sale-card {
+  .sales-cards {
      min-width: 200px !important;
+     max-width: 100%;
+     flex-direction: column;
   }
 
   /* Footer text smaller */
