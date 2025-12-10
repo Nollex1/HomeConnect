@@ -103,11 +103,30 @@ body {
   .nav-container {
       display: block;
       text-align: center;
+  } 
+
+  .agent-top { 
+    display: flex;
+    gap: 20px;
+  }  
+
+  @media  (max-width: 760px) { 
+    .agent-top { 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    } 
+  } 
+  .agent-profile { 
+    width: 100%;
+    text-align: center;
+  }
+    
   }
 
 }
 
-}
+
 
     
 
