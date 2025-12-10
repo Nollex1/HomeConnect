@@ -34,6 +34,64 @@ body {
 } 
 
 
+@media (max-width: 768px) { 
+
+    /* Make all large Section Stack */
+    .bio-contact-section,
+    .recent-sales,
+    .filter-sort-row,
+    .for-sale-section table,
+    .nearby-grid { 
+        display: block !important;
+        width: 100%;
+    } 
+
+    /* Bio & Contact Stack Vertically */ 
+    .bio-left,
+    .contact-right { 
+        width: 100% !important;
+        margin-bottom: 20px;
+    } 
+
+    /* Fix headings */ 
+    h1, h2, h3 { 
+        font-size: 22px;
+        line-height: 1.3;
+    } 
+
+    /* Property cards shrink */ 
+    img { 
+        width: 100px !important;
+        height: auto;
+    } 
+
+    /*Table fix */ 
+    .for-sale-table th,
+    .for-sale-table td { 
+        font-size: 14px;
+        padding: 8px;
+        white-space: nowrap;
+    } 
+
+    /* Recent sales cards fit mobile */ 
+    .sale-card { 
+        min-width: 200px !important;
+    } 
+
+    /* Footer text smaller */ 
+    footer { 
+        font-size: 13px;
+        text-align: left;
+    } 
+
+    /*Navbar mobile fix */ 
+    .nav-container { 
+        display: block;
+        text-align: center;
+    }
+}
+
+
 /*page-main*/
 
 .page-main { 
@@ -947,10 +1005,7 @@ body {
         justify-content: center;
         margin-top: 12px;
     } 
-    .footer-copy { 
-        margin-left: 0;
-        margin-right: 0;
-    }   
+    
     
 }
   @media (max-width: 420px) { 
@@ -959,4 +1014,9 @@ body {
     .socail-icons img { height: 24px; width: 24px;}
 
 
+  } 
+
+  @media ( max-width: 768px) { 
+
   }
+
