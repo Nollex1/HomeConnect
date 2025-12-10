@@ -82,10 +82,15 @@ body {
   }
 
   /* Recent sales cards fit mobile */
-  .sales-cards {
+  .sales-card {
      min-width: 200px !important;
-     max-width: 100%;
      flex-direction: column;
+     width: 100%;
+     
+  } 
+  .sale-card { 
+    width: 100%;
+    max-width: 100%;
   }
 
   /* Footer text smaller */
