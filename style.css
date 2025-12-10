@@ -35,62 +35,74 @@ body {
 
 
 @media (max-width: 768px) { 
+    /* Prevent sideways scrolling anywhere */ 
 
-    /* Make all large Section Stack */
-    .bio-contact-section,
-    .recent-sales,
-    .filter-sort-row,
-    .for-sale-section table,
-    .nearby-grid { 
-        display: block !important;
+    body, html { 
+        overflow-x: hidden;
         width: 100%;
     } 
 
-    /* Bio & Contact Stack Vertically */ 
-    .bio-left,
-    .contact-right { 
-        width: 100% !important;
-        margin-bottom: 20px;
-    } 
+    @media (max-width: 768px) {
 
-    /* Fix headings */ 
-    h1, h2, h3 { 
-        font-size: 22px;
-        line-height: 1.3;
-    } 
+  /* Make all large sections stack */
+  .bio-contact-section,
+  .recent-sales,
+  .filter-sort,
+  .for-sale-section,
+  .nearby-grid {
+     display: block !important;
+     width: 100%;
+  }
 
-    /* Property cards shrink */ 
-    img { 
-        width: 100px !important;
-        height: auto;
-    } 
+  /* Bio & Contact stack vertically */
+  .bio-left,
+  .contact-right {
+     width: 100% !important;
+     margin-bottom: 20px;
+  }
 
-    /*Table fix */ 
-    .for-sale-table th,
-    .for-sale-table td { 
-        font-size: 14px;
-        padding: 8px;
-        white-space: nowrap;
-    } 
+  /* Fix headings */
+  h1, h2, h3 {
+     font-size: 22px;
+     line-height: 1.3;
+  }
 
-    /* Recent sales cards fit mobile */ 
-    .sale-card { 
-        min-width: 200px !important;
-    } 
+  /* Property cards shrink */
+  img {
+     width: 100px !important;
+     height: auto;
+  }
 
-    /* Footer text smaller */ 
-    footer { 
-        font-size: 13px;
-        text-align: left;
-    } 
+  /* Table fix */
+  .for-sale-table th,
+  .for-sale-table td {
+     font-size: 14px;
+     padding: 8px;
+     white-space: nowrap;
+  }
 
-    /*Navbar mobile fix */ 
-    .nav-container { 
-        display: block;
-        text-align: center;
-    }
+  /* Recent sales cards fit mobile */
+  .sale-card {
+     min-width: 200px !important;
+  }
+
+  /* Footer text smaller */
+  footer {
+     font-size: 13px;
+     text-align: left;
+  }
+
+  /* Navbar mobile fix */
+  .nav-container {
+      display: block;
+      text-align: center;
+  }
+
 }
 
+}
+
+    
 
 /*page-main*/
 
